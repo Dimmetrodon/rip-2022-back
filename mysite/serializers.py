@@ -25,5 +25,5 @@ class ApartmentSellSerializer(serializers.ModelSerializer):
         # Модель, которую мы сериализуем
         model = ApartmentSell
 
-        # Поля, которые мы сериализуем
+        # Поля, которые мы сериализуе
         fields = ["pk", "post_date", "status", "apartment", "buyer"]
